@@ -28,25 +28,14 @@ class _SplashState extends State<Splash> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        decoration: const BoxDecoration(
-          image: DecorationImage(
-            fit: BoxFit.fill,
-            image: NetworkImage(
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBHtFd-npMTFmdrB2MxY64fa-TpUATcEbUjg&usqp=CAU"),
-          ),
-        ),
-        child: Center(
+      body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Image.asset("assets/", ),
-              const Text("Welcome",
-                  style: TextStyle(fontSize: 50, color: Colors.white, )),
+              Image.asset("assets/whatsapp.png",width:100,height:100,),
             ],
           ),
         ),
-      ),
     );
   }
 }
