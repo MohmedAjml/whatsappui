@@ -1,9 +1,9 @@
 <table>
   <tr>
-    <td align="center">Splash</td>
-    <td align="center">Chats UI</td>
-    <td align="center">Status UI</td>
-    <td align="center">Calls UI</td>
+    <td align="center">Splash screen</td>
+    <td align="center">Chats page</td>
+    <td align="center">Status page</td>
+    <td align="center">Calls page</td>
   </tr>
   </tr>
   <tr>
